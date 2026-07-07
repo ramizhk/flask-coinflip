@@ -13,11 +13,11 @@ A simple web application built with Python and Flask that simulates a coin flip.
    ```bash
    python -m venv venv
    
-3. **Bypass security check (only if it doesn't let you install venv directly)**
+3. **Bypass security check (only if it doesn't let you install venv directly):**
    ```bash
    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
    
-4. **Run the venv script**
+4. **Run the venv script:**
 
    
    On Windows:
@@ -26,7 +26,7 @@ A simple web application built with Python and Flask that simulates a coin flip.
    On macOS/Linux:
 ```source venv/bin/activate```
    
-6. **Run the app**
+6. **Run the app:**
    ```bash
    python app.py
 
