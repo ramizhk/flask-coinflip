@@ -17,6 +17,7 @@ A simple web application built with Python and Flask that simulates a coin flip.
 .\venv\Scripts\Activate.ps1
 # On macOS/Linux:
 source venv/bin/activate
+##
 
 3. **Run the app**
    ```bash
