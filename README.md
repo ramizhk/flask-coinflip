@@ -18,7 +18,8 @@ A simple web application built with Python and Flask that simulates a coin flip.
    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
    
 4. **Run the venv script**
-   \\
+
+   
    On Windows:
 ```.\venv\Scripts\Activate.ps1```
 
