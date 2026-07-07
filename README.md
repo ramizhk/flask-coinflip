@@ -13,11 +13,15 @@ A simple web application built with Python and Flask that simulates a coin flip.
    ```bash
    python -m venv venv
    
-3. **Run the app**
+3. **Bypass security check (only if it doesn't let you install venv directly)**
+   ```bash
+   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+   
+4. **Run the app**
    ```bash
    python app.py
 
-4. Open ```http:/127.0.0.1:5000/``` in your browser
+5. Open ```http:/127.0.0.1:5000/``` in your browser
    
 # On Windows:
 ```.\venv\Scripts\Activate.ps1```
