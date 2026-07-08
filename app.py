@@ -18,8 +18,11 @@ def index():
             image_url = "/static/heads-gold.jpg"
 =======
         if outcome == "Heads":
-            image_url = "/static/heads.jpg"
->>>>>>> dev
+            image_url = "/static/heads og.jpg"
+        else:
+            image_url = (
+                "/static/tails.jpg"
+            )
     return render_template("index.html", result=result, image_url=image_url)
 
 if __name__ == "__main__":
