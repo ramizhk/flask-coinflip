@@ -13,12 +13,13 @@ def index():
         result = f"It's {outcome}!"
         # Python seekhni paray gi sahi se
 
+     <<<<<<< HEAD
         if outcome == "Heads":
             image_url = "/static/heads-gold.jpg"
-        else:
-            image_url = (
-                "/static/tails.jpg"
-            )
+=======
+        if outcome == "Heads":
+            image_url = "/static/heads.jpg"
+>>>>>>> dev
     return render_template("index.html", result=result, image_url=image_url)
 
 if __name__ == "__main__":
