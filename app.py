@@ -14,7 +14,7 @@ def index():
         # Python seekhni paray gi sahi se
 
         if outcome == "Heads":
-            image_url = "/static/heads.jpg"
+            image_url = "/static/heads-gold.jpg"
         else:
             image_url = (
                 "/static/tails.jpg"
